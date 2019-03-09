@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-namespace Chapter2.Event{
+namespace Chapter2.Event.Normal{
 	public class SecondsCounterNormal : MonoBehaviour{
 		[SerializeField] private int countTime;//インスペクタからカウントする秒数を変更できるように
 		private int timeCounter;

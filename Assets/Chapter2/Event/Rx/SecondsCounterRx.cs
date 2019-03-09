@@ -2,7 +2,7 @@ using System;
 using UniRx;
 using UnityEngine;
 
-namespace Chapter2.Event{
+namespace Chapter2.Event.Rx{
 	public class SecondsCounterRx : MonoBehaviour{
 		[SerializeField] private int countTime;//インスペクタからカウントする秒数を変更できるように
 		private int timeCounter;

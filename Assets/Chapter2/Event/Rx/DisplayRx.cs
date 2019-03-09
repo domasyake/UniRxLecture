@@ -1,7 +1,7 @@
-using UnityEngine;
 using UniRx;
+using UnityEngine;
 
-namespace Chapter2.Event{
+namespace Chapter2.Event.Rx{
 	public class DisplayRx : MonoBehaviour{
 		[SerializeField]private SecondsCounterRx secondsCounterRx;
 
