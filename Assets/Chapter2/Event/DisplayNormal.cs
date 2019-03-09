@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace Chapter2.Event{
 	public class DisplayNormal : MonoBehaviour{
-		[SerializeField]private FiveSecondsCounterNormal fiveSecondsCounterNormal;
+		[SerializeField]private SecondsCounterNormal secondsCounterNormal;
 
 		private void Awake(){
-			fiveSecondsCounterNormal.OnCountUp += count => Debug.Log("normal count is " + count);
+			secondsCounterNormal.OnCountUp += count => Debug.Log("normal count is " + count);
 		}
 	}
 }

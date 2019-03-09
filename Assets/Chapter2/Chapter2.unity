@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12565b48c74245c4bcc82d800738f8bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fiveSecondsCounterRx: {fileID: 0}
+  secondsCounterRx: {fileID: 1047741405}
 --- !u!114 &1047741404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20636bd99e1848f9923b3f9d698714ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fiveSecondsCounterNormal: {fileID: 1047741406}
+  secondsCounterNormal: {fileID: 1047741406}
 --- !u!114 &1047741405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23a911892c71430faccd69f005a4d575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  countTime: 1
 --- !u!114 &1047741406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322f62d794e74308a268338ed868d767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  countTime: 1
 --- !u!4 &1047741407
 Transform:
   m_ObjectHideFlags: 0
