@@ -1,5 +1,6 @@
 using System;
 using Chapter2.Event;
+using Chapter2.Event.Rx;
 using UniRx;
 using UnityEngine;
 
