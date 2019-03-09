@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 123822581}
   - component: {fileID: 123822580}
   - component: {fileID: 123822579}
+  - component: {fileID: 123822583}
   - component: {fileID: 123822582}
   m_Layer: 0
   m_Name: OperatorExample
@@ -140,7 +141,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 123822575}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 956a9cac4157d49428483ae44f2fed71, type: 3}
   m_Name: 
@@ -209,9 +210,20 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 123822575}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc46e1ac224f43d6a594af826994e2c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &123822583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 123822575}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b0aeaf7ed94142a2b30e93f19c1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1250713741
