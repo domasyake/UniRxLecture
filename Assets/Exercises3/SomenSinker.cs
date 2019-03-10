@@ -9,8 +9,7 @@ namespace Exercises3{
 		public IObservable<Somen> SomenLane => somenStream;
 
 		private void Start(){
-			Observable.EveryUpdate()
-				.ThrottleFirst(TimeSpan.FromSeconds(1))
+			Observable.Interval(TimeSpan.FromSeconds(1))
 				.Subscribe(n => {
 					var somen = new Somen(Random.Range(1, 10), Random.Range(5, 15));
 					Debug.Log("Release somen[length "+somen.Length+",weight "+somen.Weight+"]");
