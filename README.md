@@ -1,7 +1,7 @@
 UniRx講座
 ====
-2019/3/11に開催するUniRx講座のプロジェクト<br>
-講座資料:講座後公開
+2019/3/11に開催したUniRx講座のプロジェクト<br>
+講座スライド: https://drive.google.com/file/d/1sFNSCKbbDiuTg3P-PGnxYg30FTprQlpc/view?usp=sharing
 
 ## Download
 [clone or download]からDownload Zipして解凍
